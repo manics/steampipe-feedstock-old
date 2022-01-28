@@ -11,9 +11,7 @@ source:
 
 build:
   number: 0
-  script:
-    - GOBIN="$PREFIX/bin" go install -v .
-  skip: True  # [win]
+  # skip: True  # [win]
 
 requirements:
   build:
