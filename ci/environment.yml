@@ -1,0 +1,7 @@
+name: conda-build
+channels:
+  - defaults
+dependencies:
+  - anaconda-client
+  - conda-build
+  - conda-verify
